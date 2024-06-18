@@ -33,7 +33,7 @@ bannerOverlays.style.height = (900 - nav.clientHeight)+'px';
 
 navLinks.forEach(item => {
     item.addEventListener('mouseenter', function(){
-        navbar.style.backdropFilter = 'blur(12px)';
+        navbar.style.backdropFilter = 'blur(5px)';
         // item.style.borderBottom = '1px solid white';
         // console.log('mouse entered');
     })
